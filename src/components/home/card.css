@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card-wrapper {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.img-container img{
+    overflow: hidden;
+    height: 225px;
+    background-size: cover;
+}
+
+h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    padding: 0.5rem;
+    background-color: rgba(20, 16, 16, 0.986);
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background: rgba(228, 189, 81, 0.1);
+    transform: scale(1.03);
+}
+
+.card-anchor {
+    text-transform: uppercase;
+    color: rgb(231, 31, 58);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*jazz*/
+.jazz-section {
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -7px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 1rem;
+}
+
+.jazz-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 11px 0px;
+}
+
+.jazz-content {
+    margin: 1rem;
+    margin-top: 0.3rem;
+}
+
+.jazz-title {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+/*orchestra*/
+.orchestra-section {
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -7px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 1rem;
+}
+
+.orchestra-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 11px 0px;
+}
+
+.orchestra-content {
+    margin: 1rem;
+    margin-top: 0.3rem;
+}
+
+.orchestra-title {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+/*thirty*/
+.thirty-section {
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -7px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 1rem;
+}
+
+.thirty-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 11px 0px;
+}
+
+.thirty-content {
+    margin: 1rem;
+    margin-top: 0.3rem;
+}
+
+.thirty-title {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+/*r&b*/
+.rhythm-section {
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -7px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 1rem;
+}
+
+.rhythm-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 11px 0px;
+}
+
+.rhythm-content {
+    margin: 1rem;
+    margin-top: 0.3rem;
+}
+
+.rhythm-title {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
